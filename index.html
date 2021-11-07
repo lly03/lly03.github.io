@@ -10,18 +10,18 @@
 </head>
 <body>
     <nav>
-        <div class="nav_overlay">
+        <div class="nav_overlay active">
             <i class="ri-close-line"></i>
         </div>
         <div class="nav_top">
             <img class="logo" src="./assets/logo.svg">
             <i class="ri-menu-line"></i>
         </div>
-        <div class="nav_menu">
-            <ul>
-                <li class="active">About</li>
-                <li>Projects</li>
-                <li>Contact</li>
+        <div class="nav_menu active">
+            <ul> 
+                <li class="active"><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li>Resume</li>
             </ul>
             <div class="nav_social-links">
@@ -44,23 +44,91 @@
     </header>
 
     <main>
-        <section>
-            <h2>About me</h2>
-            <p>Hello. My name is Lucinda and I enjoy creating web applications while applying my knowledge on UX and UI design. I like discovering new technologies and ways to create better and engaging user experiences.</p>
-            <p>I recently gained some valuable skills from the RMIT course User Experience Design and User Interface Design, as well as expanded my knowledge on web technologies through the Nanodegree in Front End Development from Udacity.</p>
-            <p>Beside learning and building technologies, I do enjoy reading webcomics and annoying my cats.</p> 
+        <section class="about_section" id="about">
+            <div class="about_description">
+                <h2>About me</h2>
+                <I>Hello. My name is Lucinda and I enjoy creating web applications while applying my knowledge on UX and UI design. I like discovering new technologies and ways to create better and engaging user experiences. I recently gained some valuable skills from the RMIT course User Experience Design and User Interface Design, as well as expanded my knowledge on web technologies through the Nanodegree in Front End Development from Udacity.</p>
+            </div>
+            <div class="about_all-skills">
+                <h2>Skills</h2>
+                <div class="about_skill">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Javascript (ES6)</li>
+                        <li>CSS/Sass</li>
+                        <li>HTML</li>
+                    </ul>
+                </div>
+                <div class="about_skill">
+                    <h3>Library, Frameworks & Tools</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Node.js</li>
+                        <li>Bootstrap</li>
+                        <li>Webpack</li>
+                        <li>Chrome Dev Tools</li>
+                    </ul>
+                </div>
+                <div class="about_skill">
+                    <h3>Design</h3>
+                    <ul>
+                        <li>Figma</li>
+                        <li>Wireframing</li>
+                        <li>Prototyping</li>
+                        <li>User Research</li>
+                        <li>Usability Testing</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
-        <section>
-            <h2>The projects that I have done</h2>
+        <section class="project_section" id="projects">
+            <h2>My Projects</h2>
+            <div class="project_container">
+                <img src="" />
+                <h3>Travel App</h3>
+                <p></p>
+                <small><span></span></small>
+                <a href="https://github.com/lly03/travel-app"><i class="ri-github-line"></i></a>
+            </div>
+            <div class="project_container">
+                <img src="" />
+                <h3>Case Study: Snapchat AR Bar</h3>
+                <p></p>
+                <small><span></span></small>
+                <a href="./pages/snapchat_casestudy.html" class="project_read">Read Case Study</a>
+            </div>
+            <div class="project_container">
+                <img src="" />
+                <h3>Case Study: Bruno's Best Friend</h3>
+                <p></p>
+                <small><span></span></small>
+                <a href="./pages/bbf_casestudy.html" class="project_read">Read Case Study</a>
+            </div>
         </section>
 
-        <section>
-            <h2>Contact me. Say hello</h2>
+        <section class="contact_section" id="contact">
+            <h2>Contact me. Send an email and say hello &#128075;</h2>
+            <form action="">
+                <label for="name">Name*</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email" required>
+                <label for="subject">Subject*</label>
+                <input type="text" name="subject" id="subject">
+                <label for="message">Message*</label>
+                <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+                <button type="submit">Send email</button>
+            </form>
         </section>
     </main>
 
     <footer>
+        <div class="footer_social-links">
+            <a href="https://www.linkedin.com/in/lly03/"><i class="ri-linkedin-box-fill"></i></a>
+            <a href="mailto:lucindaly.lly@gmail.com" target="_blank"><i class="ri-mail-line"></i></a>
+            <a href="https://github.com/lly03"><i class="ri-github-fill"></i></a>
+        </div>
         <p>Designed by Lucinda Ly</p>
     </footer>
 </body>
