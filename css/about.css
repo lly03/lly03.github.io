@@ -1,24 +1,41 @@
 @import url(./varaibles.css);
 
-.about_all-skills {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.about_description {
+    margin-bottom: 6rem;
 }
 
-.about_all-skills h2{
-    display: flex;
-    flex-direction: column;
+.about_description p{
+    color: var(--primary-color);
 }
 
-.about_skill h3, .about_skill ul {
+/* Skills list */
+.about_skills h2 {
+    margin-left: 40px;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.75rem;
+}
+
+.about_all_skills {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about_skill h3, .about_skill ul li {
+    display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-.about_skill ul li{
+.about_skill h3 {
+    margin-left: 40px;
+}
+
+.about_skill ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_skill ul li {
     list-style: none;
     color: var(--primary-color);
 }

@@ -24,7 +24,7 @@
                 <li><a href="#contact">Contact</a></li>
                 <li>Resume</li>
             </ul>
-            <div class="nav_social-links">
+            <div class="nav_social_links">
                 <a href="https://www.linkedin.com/in/lly03/"><i class="ri-linkedin-box-fill"></i></a>
                 <a href="mailto:lucindaly.lly@gmail.com" target="_blank"><i class="ri-mail-line"></i></a>
                 <a href="https://github.com/lly03"><i class="ri-github-fill"></i></a>
@@ -38,7 +38,7 @@
         <p>Front End Developer</p>
         <p>UX/UI Designer</p>
         <div class="mail_background">
-            <span id="mail-box">&#128237;</span>
+            <span id="mail_box">&#128237;</span>
             <span>&#128236;</span>
         </div>
     </header>
@@ -46,38 +46,40 @@
     <main>
         <section class="about_section" id="about">
             <div class="about_description">
-                <h2>About me</h2>
-                <I>Hello. My name is Lucinda and I enjoy creating web applications while applying my knowledge on UX and UI design. I like discovering new technologies and ways to create better and engaging user experiences. I recently gained some valuable skills from the RMIT course User Experience Design and User Interface Design, as well as expanded my knowledge on web technologies through the Nanodegree in Front End Development from Udacity.</p>
+                <h2>About Me</h2>
+                <p>Hello. My name is Lucinda and I enjoy creating web applications while applying my knowledge on UX and UI design. I like discovering new technologies and ways to create better and engaging user experiences. I recently gained some valuable skills from the RMIT course User Experience Design and User Interface Design, as well as expanded my knowledge on web technologies through the Nanodegree in Front End Development from Udacity.</p>
             </div>
-            <div class="about_all-skills">
-                <h2>Skills</h2>
-                <div class="about_skill">
-                    <h3>Languages</h3>
-                    <ul>
-                        <li>Javascript (ES6)</li>
-                        <li>CSS/Sass</li>
-                        <li>HTML</li>
-                    </ul>
-                </div>
-                <div class="about_skill">
-                    <h3>Library, Frameworks & Tools</h3>
-                    <ul>
-                        <li>Git</li>
-                        <li>Node.js</li>
-                        <li>Bootstrap</li>
-                        <li>Webpack</li>
-                        <li>Chrome Dev Tools</li>
-                    </ul>
-                </div>
-                <div class="about_skill">
-                    <h3>Design</h3>
-                    <ul>
-                        <li>Figma</li>
-                        <li>Wireframing</li>
-                        <li>Prototyping</li>
-                        <li>User Research</li>
-                        <li>Usability Testing</li>
-                    </ul>
+            <div class="about_skills">
+                <h2>My Skills</h2>
+                    <div class="about_all_skills">
+                    <div class="about_skill">
+                        <h3>Languages</h3>
+                        <ul>
+                            <li>Javascript (ES6)</li>
+                            <li>CSS/Sass</li>
+                            <li>HTML</li>
+                        </ul>
+                    </div>
+                    <div class="about_skill">
+                        <h3>Library, Frameworks & Tools</h3>
+                        <ul>
+                            <li>Git</li>
+                            <li>Node.js</li>
+                            <li>Bootstrap</li>
+                            <li>Webpack</li>
+                            <li>Chrome Dev Tools</li>
+                        </ul>
+                    </div>
+                    <div class="about_skill">
+                        <h3>Design</h3>
+                        <ul>
+                            <li>Figma</li>
+                            <li>Wireframing</li>
+                            <li>Prototyping</li>
+                            <li>User Research</li>
+                            <li>Usability Testing</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -85,49 +87,61 @@
         <section class="project_section" id="projects">
             <h2>My Projects</h2>
             <div class="project_container">
-                <embed src="./assets/travel-app_example.svg" title="the mockup for my travel app on a macbook pro"/>
-                <h3>Travel App</h3>
-                <p>Travel App is a front-end developer capstone project for Udacity, where it can obtain a desired trip location & date from a user, and display the weather and an image of the location using information obtained from external APIs.</p>
-                <small>
-                    <span>Html</span>
-                    <span>Sass</span>
-                    <span>Javascript</span>
-                    <span>Webpack</span>
-                    <span>External APIs</span>
-                    <span>Capstone Project</span>
-                </small>
-                <a href="https://github.com/lly03/travel-app"><i class="ri-github-line"></i></a>
+                <div class="project_image">
+                    <embed src="./assets/travel-app_example.svg" title="the mockup for my travel app on a macbook pro" class="desktop_img"/>
+                </div>
+                <div class="project_information">
+                    <h3>Travel App</h3>
+                    <p>Travel App is a front-end developer capstone project for Udacity, where it can obtain a desired trip location & date from a user, in which it displays the weather and an image of the location using information fetched from external APIs.</p>
+                    <small>
+                        <span>Html</span>
+                        <span>Sass</span>
+                        <span>Javascript</span>
+                        <span>Webpack</span>
+                        <span>External APIs</span>
+                        <span>Capstone Project</span>
+                    </small>
+                    <a href="https://github.com/lly03/travel-app" target="_blank">View Repository</i></a>
+                </div>
             </div>
             <div class="project_container">
-                <embed src="./assets/snapchat_example.svg" title="the mockup for my snapchat mid-fidelity on an iphone"/>
-                <h3>Case Study: Snapchat AR Bar</h3>
-                <p>This case study was completed through the RMIT course, User Experience Design. Snapchat was the chosen application where I conducted research, ideations and testing, while also learning the fundamentals of UX design.</p>
-                <small>
-                    <span>UX Design</span>
-                    <span>Case Study</span>
-                    <span>Wireframing</span>
-                    <span>Prototyping</span>
-                    <span>User Research</span>
-                    <span>Usability Testing</span>
-                    <span>Figma</span>
-                </small>
-                <a href="./pages/snapchat_casestudy.html" class="project_read">Read Case Study</a>
+                <div class="project_image">
+                    <embed src="./assets/snapchat_example.svg" title="the mockup for my snapchat mid-fidelity on an iphone" class="mobile_img"/>
+                </div>
+                <div class="project_information">
+                    <h3>Case Study: Snapchat AR Bar</h3>
+                    <p>This case study was completed through the RMIT course, User Experience Design. Snapchat was the chosen application where I conducted research, ideations and testing, while also learning the fundamentals of UX design.</p>
+                    <small>
+                        <span>UX Design</span>
+                        <span>Case Study</span>
+                        <span>Wireframing</span>
+                        <span>Prototyping</span>
+                        <span>User Research</span>
+                        <span>Usability Testing</span>
+                        <span>Figma</span>
+                    </small>
+                    <a href="./pages/snapchat_casestudy.html" class="project_read">Read Case Study</a>
+                </div>
             </div>
             <div class="project_container">
-                <embed src="./assets/bbf_example.svg" title="the mock up for bruno's best friend high-fidelity on an iphone" />
-                <h3>Case Study: Bruno's Best Friend</h3>
-                <p>Bruno’s Best Friend was a given design brief for the RMIT course, User Interface Design. This case study describes the different stages of the design process of creating a new interface for the given brief.</p>
-                <small>
-                    <span>UI Design</span>
-                    <span>Case Study</span>
-                    <span>Moodboarding</span>
-                    <span>UI Flow</span>
-                    <span>Component Library</span>
-                    <span>Wireframing</span>
-                    <span>Prototyping</span>
-                    <span>Figma</span>
-                </small>
-                <a href="./pages/bbf_casestudy.html" class="project_read">Read Case Study</a>
+                <div class="project_image">
+                    <embed src="./assets/bbf_example.svg" title="the mock up for bruno's best friend high-fidelity on an iphone" class="mobile_img"/>
+                </div>
+                <div class="project_information">
+                    <h3>Case Study: Bruno's Best Friend</h3>
+                    <p>Bruno’s Best Friend was a given design brief for the RMIT course, User Interface Design. This case study describes the different stages of the design process of creating a new interface for the given brief.</p>
+                    <small>
+                        <span>UI Design</span>
+                        <span>Case Study</span>
+                        <span>Moodboarding</span>
+                        <span>UI Flow</span>
+                        <span>Component Library</span>
+                        <span>Wireframing</span>
+                        <span>Prototyping</span>
+                        <span>Figma</span>
+                    </small>
+                    <a href="./pages/bbf_casestudy.html" class="project_read">Read Case Study</a>
+                    </div>
             </div>
         </section>
 
@@ -148,7 +162,7 @@
     </main>
 
     <footer>
-        <div class="footer_social-links">
+        <div class="footer_social_links">
             <a href="https://www.linkedin.com/in/lly03/"><i class="ri-linkedin-box-fill"></i></a>
             <a href="mailto:lucindaly.lly@gmail.com" target="_blank"><i class="ri-mail-line"></i></a>
             <a href="https://github.com/lly03"><i class="ri-github-fill"></i></a>

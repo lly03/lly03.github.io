@@ -1,1 +1,74 @@
 @import url(./varaibles.css);
+
+.project_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--container-color);
+    margin-bottom: 2rem;
+    padding: 4rem;
+    gap: 2rem;
+    transition: 0.3s;
+}
+
+.project_container:hover, .project_container:focus {
+    background-color: var(--container-color-hover);
+}
+
+/* Project Image Styles */
+
+.project_image {
+    grid-area: 0/1/2/0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_image .desktop_img {
+    width: 30rem;
+}
+
+.project_image .mobile_img {
+    width: 15rem;
+}
+
+/* Project Information Styles */
+
+.project_information {
+    grid-area: 0/2/0/3;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.project_information h3 {
+    font-size: 2.25rem;
+}
+
+.project_information p, .project_information small span {
+    color: var(--primary-color);
+}
+
+.project_information small span {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    padding: 2px 5px;
+    margin: 5px;
+    opacity: 0.95;
+}
+
+.project_information a {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--link-color);
+    transition: 0.3s;
+}
+
+.project_information a:hover {
+    color: var(--important-color);
+}
+
+.project_information a .ri-github-line {
+    font-size: 2.25rem;
+}
