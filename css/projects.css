@@ -7,7 +7,7 @@
     margin-bottom: 2rem;
     padding: 4rem;
     gap: 2rem;
-    transition: 0.3s;
+    transition: 300ms linear;
 }
 
 .project_container:hover, .project_container:focus {
