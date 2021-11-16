@@ -1,6 +1,11 @@
 @import url(./varaibles.css);
 
+.about_section {
+    margin-bottom: 10rem;
+}
+
 .about_description {
+    text-align: center;
     margin-bottom: 6rem;
 }
 
@@ -13,12 +18,11 @@
     margin-left: 40px;
     text-align: center;
     font-style: italic;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
 }
 
-.about_all_skills {
-    display: flex;
-    justify-content: space-around;
+.about_skill {
+    margin-bottom: 3rem;
 }
 
 .about_skill h3, .about_skill ul li {

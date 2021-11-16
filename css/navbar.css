@@ -1,25 +1,7 @@
 @import url(./varaibles.css);
 
-/* General Styles for Nav */
-nav {
-    color: var(--primary-color);
-}
-
-nav ul li {
-    text-decoration: none;
-    list-style: none;
-    padding: 1.5rem;
-    transition: 0.3s;
-    cursor: pointer;
-}
-
-nav ul li.active, nav ul li:hover{
-    color: var(--important-color);
-    text-decoration: underline;
-}
-
-/* Tablet and Desktop View */
-@media screen and (min-width:641px) {
+@media screen and (min-width: 640px) {
+    /* General Styles for Nav */
     nav {
         display: flex;
         justify-content: space-between;
@@ -31,6 +13,24 @@ nav ul li.active, nav ul li:hover{
         display: flex;
     }
 
+    nav ul li {
+        list-style-type: none;
+        color: var(--primary-color);
+        padding: 1.5rem;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    nav ul li a {
+        color: var(--primary-color);
+        text-decoration: none;
+    }
+
+    nav ul li a.active, nav ul li a:hover, nav ul li:hover{
+        color: var(--important-color);
+        text-decoration: underline;
+    }
+
     .nav_menu {
         font-size: 1.25rem;
     }
@@ -39,7 +39,6 @@ nav ul li.active, nav ul li:hover{
         display: none;
     }
 }
-
 /* Mobile View */
 @media screen and (max-width: 640px) {
     nav {

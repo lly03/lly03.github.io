@@ -1,0 +1,77 @@
+@media screen and (min-width: 980px) {
+
+    /******************* General Styles *********************/
+    body {
+        display: grid;
+        grid-template-rows: 1fr 70vh 1fr 1fr 20vh;
+        height: 100vh;
+        font-size: 1.25rem;
+    }
+
+    main, header, footer {
+        padding: 4rem;
+    }
+
+    main section {
+        margin-top: 10rem;
+    }
+
+    /****************** About Section *********************/
+    .about_description {
+        text-align: start;
+    }
+
+    /* Skills list */
+    .about_all_skills {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /*********** Project Section ***********/
+    .project_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 4rem;
+        gap: 2rem;
+    }
+
+    /* Project Image Styles */
+    .project_image {
+        grid-area: 0/1/2/0;
+    }
+
+    .project_image .desktop_img {
+        width: 25rem;
+    }
+    
+    .project_image .mobile_img {
+        width: 15rem;
+    }
+
+    /* Project Information Styles */
+
+    .project_information {
+        grid-area: 0/2/0/3;
+        display: grid;
+        text-align: start;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .project_information h3 {
+        font-size: 2em
+    }
+
+    .project_information a {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /************* Contact Section **********/
+    form {
+        width: 40rem;
+    }    
+
+    .contact_form h2 {
+        font-size: 1.75rem;
+    }
+}
