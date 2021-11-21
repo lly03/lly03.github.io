@@ -1,55 +1,25 @@
 @import url(./varaibles.css);
 
 .contact_section {
-    padding-top: 5rem;
-}
-
-.contact_form {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 15rem;
 }
 
-.contact_form h2 {
-    font-style: italic;
-    font-size: 1.25rem;
-}
-
-.form_control {
-    margin-top: 1em;
-}
-
-.form_control label {
-    color: var(--primary-color);
-    display: flex;
-}
-
-.form_control input {
-    width: 100%;
-    padding: 1rem 0;
-}
-
-.form_control textarea {
-    width: 100%;
-}
-
-.form_control input, .form_control textarea {
-    font-size: 1.25em;
-}
-
-form button {
-    float: right;
+.contact_section a {
     border-style: none;
     color: var(--background-color);
     background-color: var(--link-color);
     padding: 1em 0.8em;
-    font-size: 0.75em;
+    font-size: 1.75em;
     font-weight: 700;
     cursor: pointer;
+    border-radius: 10px;
     transition: 300ms linear;
+    text-decoration: none;
 }
 
-form button:hover {
+.contact_section a:hover {
     background-color: var(--important-color);
 }
