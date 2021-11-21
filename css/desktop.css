@@ -8,12 +8,17 @@
         font-size: 1.25rem;
     }
 
-    main, header, footer {
-        padding: 4rem;
-    }
-
     main section {
         margin-top: 10rem;
+    }
+
+    /******** Navbar Styles ************/
+    nav .logo {
+        width: 2.75rem;
+    }
+
+    nav ul li {
+        font-size: 1.25rem;
     }
 
     /****************** About Section *********************/
@@ -58,7 +63,7 @@
     }
 
     .project_information h3 {
-        font-size: 2em
+        font-size: 2em;
     }
 
     .project_information a {

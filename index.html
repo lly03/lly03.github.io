@@ -9,41 +9,33 @@
     <title>Lucinda's Portfolio</title>
 </head>
 <body>
-    <nav>
-        <div class="nav_overlay active">
-            <i class="ri-close-line"></i>
-        </div>
-        <div class="nav_top">
+    <header>
+        <nav>
             <img class="logo" src="./assets/logo.svg">
-            <i class="ri-menu-line"></i>
-        </div>
-        <div class="nav_menu active">
             <ul> 
-                <li><a href="#about" class="active">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about" class="nav_menu">About</a></li>
+                <li><a href="#projects" class="nav_menu">Projects</a></li>
+                <li><a href="#contact" class="nav_menu">Contact</a></li>
                 <li>Resume</li>
             </ul>
-            <div class="nav_social_links">
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro_section">
+            <h1 class="introduction">Hello, My name is <span>Lucinda</span></h1>
+            <p>Front End Developer</p>
+            <p>UX/UI Designer</p>
+            <div class="social_links">
                 <a href="https://www.linkedin.com/in/lly03/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
                 <a href="mailto:lucindaly.lly@gmail.com" target="_blank"><i class="ri-mail-line"></i></a>
                 <a href="https://github.com/lly03" target="_blank"><i class="ri-github-fill"></i></a>
             </div>
-        </div>
-    </nav>
-
-
-    <header>
-        <h1 class="introduction">Hello, My name is <span>Lucinda</span></h1>
-        <p>Front End Developer</p>
-        <p>UX/UI Designer</p>
-        <div class="mail_background">
-            <span id="mail_box">&#128237;</span>
-            <span>&#128236;</span>
-        </div>
-    </header>
-
-    <main>
+            <div class="mail_background">
+                <span id="mail_box">&#128237;</span>
+                <span>&#128236;</span>
+            </div>
+        </section>
         <section class="about_section" id="about">
             <div class="about_description">
                 <h2>About Me</h2>
@@ -182,5 +174,7 @@
         </div>
         <p>Designed by Lucinda Ly</p>
     </footer>
+
+    <script src="./js/navbar.js"></script>
 </body>
 </html>

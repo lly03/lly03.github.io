@@ -1,5 +1,9 @@
 @import url(./varaibles.css);
 
+.contact_section {
+    padding-top: 5rem;
+}
+
 .contact_form {
     display: flex;
     flex-direction: column;

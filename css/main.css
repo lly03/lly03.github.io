@@ -15,8 +15,13 @@ body {
     margin: 0;
 }
 
-main, header, footer {
+header {
+    z-index: 100;
+}
+
+main, footer {
     padding: 5rem 1rem;
+    z-index: -1;
 }
 
 h2 {

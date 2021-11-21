@@ -1,111 +1,45 @@
 @import url(./varaibles.css);
 
-@media screen and (min-width: 640px) {
-    /* General Styles for Nav */
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem;
-    }
-
-    nav ul{
-        display: flex;
-    }
-
-    nav ul li {
-        list-style-type: none;
-        color: var(--primary-color);
-        padding: 1.5rem;
-        transition: 0.3s;
-        cursor: pointer;
-    }
-
-    nav ul li a {
-        color: var(--primary-color);
-        text-decoration: none;
-    }
-
-    nav ul li a.active, nav ul li a:hover, nav ul li:hover{
-        color: var(--important-color);
-        text-decoration: underline;
-    }
-
-    .nav_menu {
-        font-size: 1.25rem;
-    }
-
-    .ri-menu-line, .nav_overlay, .nav_social-links {
-        display: none;
-    }
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    background-color: var(--background-color);
+    box-shadow: 15px 5px 20px var(--container-color);
 }
-/* Mobile View */
-@media screen and (max-width: 640px) {
-    nav {
-        position: relative;
-        transition: 0.3s;
-    }
-    
-    nav .logo {
-        width: 2.75rem;
-    }
-    
-    .ri-menu-line {
-        font-size: 2.25rem;
-    }
-    
-    nav .nav_top {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1rem;
-        z-index: -1;
-    }
 
-    .nav_menu {
-        position: absolute;
-        font-size: 2.25rem;
-        top: 0;
-        left: 0;
-        width: 80%;
-        height: 100vh;
-        background-color: var(--background-color);
-    }
-    
-    .nav_overlay {
-        position: absolute;
-        background: rgba(0, 0, 0, 0.95);
-        width: 100%;
-        height: 100vh;
-    }
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0.5rem;
+    transition: 0.3s;
+}
 
-    .nav_menu.active, .nav_overlay.active {
-        display: none;
-    }
-    
-    .ri-close-line {
-        position: absolute;
-        top: 0;
-        right: 0;
-        padding: 1rem 0.2rem;
-        font-size: 3rem;
-    }
-    
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-    
-    .nav_social-links {
-        position: absolute;
-        bottom: 2rem;
-        left: 1.5rem;
-    }
-    
-    .nav_social-links a{
-        text-decoration: none;
-        color: var(--link-color);
-    }
+nav .logo {
+    width: 1.75rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 0.5em;
+    list-style-type: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+nav ul li a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+
+nav ul li a.active, nav ul li a:hover, nav ul li:hover{
+    color: var(--important-color);
+    text-decoration: underline;
 }
