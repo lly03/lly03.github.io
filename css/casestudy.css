@@ -7,3 +7,38 @@ p {
 h4, h5, h6 {
     color: var(--ternary-color);
 }
+
+/********************** Project Details *********************/
+.project_details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--container-color);
+}
+
+.project_details h3 {
+    text-align: center;
+}
+
+.methods_tools li, .practices li {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.methods_tools ul, .practices ul {
+    padding: 0;
+}
+
+.methods_tools li, .practices li {
+    color: var(--primary-color);
+}
+
+.case_study_section section {
+    margin-bottom: 5em;
+}
+
+.case_study_section ul li, .case_study_section ol li {
+    color: var(--primary-color);
+}

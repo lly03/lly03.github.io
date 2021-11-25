@@ -74,4 +74,28 @@
     .contact_form h2 {
         font-size: 1.75rem;
     }
+
+    /********* Case Studies **********/
+    .project_details {
+        display: flex;
+        flex-direction: row;
+        padding: 2rem 0;
+    }
+    
+    .project_date {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .project_details .project_list {
+        display: flex;
+    }
+
+    .project_details .methods_tools, .project_details .practices {
+        padding: 0 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
