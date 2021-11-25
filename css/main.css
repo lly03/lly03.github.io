@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
 @import url(./varaibles.css);
 @import url(./navbar.css);
-@import url(./header.css);
+@import url(./banner.css);
 @import url(./about.css);
 @import url(./projects.css);
 @import url(./contact.css);
@@ -19,11 +19,6 @@ header {
     z-index: 100;
 }
 
-main, footer {
-    padding: 5rem 1rem;
-    z-index: -1;
-}
-
 h2 {
     color: var(--important-color);
 }
@@ -35,4 +30,8 @@ h3 {
 ::selection {
     color: var(--background-color);
     background: var(--important-color);
+}
+
+.about_section, .project_section, .contact_section {
+    padding: 5rem;
 }

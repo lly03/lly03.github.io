@@ -3,13 +3,8 @@
     /******************* General Styles *********************/
     body {
         display: grid;
-        grid-template-rows: 1fr 70vh 1fr 1fr 20vh;
         height: 100vh;
         font-size: 1.25rem;
-    }
-
-    main section {
-        margin-top: 10rem;
     }
 
     /******** Navbar Styles ************/

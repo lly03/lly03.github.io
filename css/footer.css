@@ -5,6 +5,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5rem 0;
 }
 
 .footer_social_links a {

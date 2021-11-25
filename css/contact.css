@@ -4,11 +4,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 15rem;
+    padding: 10rem 0;
 }
 
 .contact_section a {
     border-style: none;
+    text-align: center;
     color: var(--background-color);
     background-color: var(--link-color);
     padding: 1em 0.8em;

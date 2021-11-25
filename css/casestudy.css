@@ -1,0 +1,9 @@
+@import url(./varaibles.css);
+
+p {
+    color: var(--primary-color);
+}
+
+h4, h5, h6 {
+    color: var(--ternary-color);
+}
