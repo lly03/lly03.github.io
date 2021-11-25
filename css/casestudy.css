@@ -8,6 +8,27 @@ h4, h5, h6 {
     color: var(--ternary-color);
 }
 
+/******* Case Study Banner *******/
+.case_study_section {
+    padding: 2rem;
+}
+
+.case_study_section .project_intro {
+    padding: 0;
+}
+
+.project_intro img{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.project_intro h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    color: var(--important-color);
+}
+
 /********************** Project Details *********************/
 .project_details {
     display: flex;

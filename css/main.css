@@ -32,6 +32,6 @@ h3 {
     background: var(--important-color);
 }
 
-.about_section, .project_section, .contact_section, .case_study_section {
+.about_section, .project_section, .contact_section {
     padding: 5rem;
 }

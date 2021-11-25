@@ -13,12 +13,18 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 0.5rem;
+    padding: 1rem 1.5rem;
     transition: 0.3s;
 }
 
 nav .logo {
     width: 1.75rem;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul {
