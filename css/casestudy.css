@@ -1,5 +1,9 @@
 @import url(./varaibles.css);
 
+h1 {
+    color: var(--important-color);
+}
+
 p {
     color: var(--primary-color);
 }
@@ -22,19 +26,13 @@ h4, h5, h6 {
     margin-top: 100px;
 }
 
-.project_intro h1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 4rem;
-    color: var(--important-color);
-}
-
 /********************** Project Details *********************/
 .project_details {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--container-color);
+    padding: 0 0.2rem;
 }
 
 .project_details h3 {
