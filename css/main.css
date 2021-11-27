@@ -33,5 +33,5 @@ h3 {
 }
 
 .about_section, .project_section, .contact_section {
-    padding: 1rem;
+    margin: 1rem;
 }

@@ -15,7 +15,6 @@
 
 /* Skills list */
 .about_skills h2 {
-    margin-left: 40px;
     text-align: center;
     font-style: italic;
     font-size: 1.25rem;
@@ -29,13 +28,10 @@
     text-align: center;
 }
 
-.about_skill h3 {
-    margin-left: 40px;
-}
-
 .about_skill ul {
     display: flex;
     flex-direction: column;
+    padding-left: 0;
 }
 
 .about_skill ul li {
