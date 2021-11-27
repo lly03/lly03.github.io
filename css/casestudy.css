@@ -105,6 +105,15 @@ img {
     margin-bottom: 5rem;
 }
 
+.cs_hover img {
+    transition: 0.2s ease-out;
+}
+
+.cs_hover img:hover {
+    box-shadow: 0.5em 1em 20px var(--container-color);
+    transform: scale(1.05);
+}
+
 /****Tablet Styles****/
 @media screen and (min-width: 600px) { 
     img {
