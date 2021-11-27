@@ -62,11 +62,7 @@ h4, h5, h6 {
     color: var(--primary-color);
 }
 
-/************* images, figure and figcap **************/
-.image_center {
-    text-align: center;
-}
-
+/************* figure and figcap **************/
 figure {
     text-align: center;
     margin: 0;
@@ -95,9 +91,34 @@ iframe {
     width: 90%;
 }
 
-/****Tablet and Desktop Styles****/
+
+/************* images **************/
+.image_center {
+    text-align: center;
+}
+
+img {
+    width: 15rem;
+}
+
+.image_spacing {
+    margin-bottom: 5rem;
+}
+
+/****Tablet Styles****/
 @media screen and (min-width: 600px) { 
+    img {
+        width: 30rem;
+    }
+
     .iframe {
         width: 100%;   
+    }
+}
+
+/***Desktop Styles****/
+@media screen and (min-width: 980px) { 
+    img {
+        width: 50rem;
     }
 }
