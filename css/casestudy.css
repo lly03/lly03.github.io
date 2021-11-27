@@ -61,3 +61,43 @@ h4, h5, h6 {
 .case_study_section ul li, .case_study_section ol li {
     color: var(--primary-color);
 }
+
+/************* images, figure and figcap **************/
+.image_center {
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+    margin: 0;
+}
+
+figcaption {
+    color: var(--secondary-color);
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+figcaption::before {
+    content: '"';
+}
+
+figcaption::after {
+    content: '"';
+}
+
+/***** iframe *****/
+.iframe_center {
+    text-align: center;
+}
+
+iframe {
+    width: 90%;
+}
+
+/****Tablet and Desktop Styles****/
+@media screen and (min-width: 600px) { 
+    .iframe {
+        width: 100%;   
+    }
+}
