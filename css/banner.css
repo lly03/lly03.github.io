@@ -1,38 +1,36 @@
 @import url(./varaibles.css);
 
 .intro_section {
-    padding-top: 10rem;
+    padding-top: 15rem;
     padding-bottom: 5rem;
     text-align: center;
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>📧</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
-/****** Mail box **********/
-.mail_background {
-    display: inline-block;
+/****** Computer box **********/
+.computer_background {
     position: relative;
-    padding: 8rem;
 }
 
-.mail_background a {
-    display: flex;
-    justify-content: center;
-    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>👆</text></svg>") 16 0,auto; /*!emojicursor.app*/
+.computer_background a {
+    cursor: url("../assets/email.png"), auto;
 }
 
-.mail_box_close, .mail_box_open {
-    position: absolute;
-    top: 0;
-    font-size: 10em;
+.computer_sad, .computer_happy {
+    
 }
 
-.mail_box_close.hide, .mail_box_open.hide {
+.computer_sad img, .computer_happy img{
+    width: 15rem;
+}
+
+.computer_sad.hide, .computer_happy.hide {
     display: none;
 }
 
 /************** Intro Text **********/
 .intro_context {
-    display: block;
+    padding: 0 0.2rem;
 }
 
 .introduction, .intro_context p {

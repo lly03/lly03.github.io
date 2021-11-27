@@ -1,10 +1,19 @@
 @media screen and (min-width: 980px) {
 
     /******************* General Styles *********************/
-    body {
+    html body {
         display: grid;
         height: 100vh;
         font-size: 1.25rem;
+    }
+
+    main .about_section, main .project_section, main .contact_section {
+        padding: 5rem;
+    }
+
+    /********* Banner ***************/
+    .computer_sad img, .computer_happy img{
+        width: 20rem;
     }
 
     /******** Navbar Styles ************/
@@ -35,7 +44,7 @@
         gap: 2rem;
     }
 
-    /* Project Image Styles */
+    /************ Project Image Styles *******/
     .project_image {
         grid-area: 0/1/2/0;
     }
@@ -48,7 +57,7 @@
         width: 15rem;
     }
 
-    /* Project Information Styles */
+    /******** Project Information Styles *********/
 
     .project_information {
         grid-area: 0/2/0/3;
@@ -67,12 +76,9 @@
     }
 
     /************* Contact Section **********/
-    form {
-        width: 40rem;
-    }    
-
-    .contact_form h2 {
-        font-size: 1.75rem;
+    main .contact_section a {
+        padding: 1em 0.8em;
+        font-size: 1.75em;
     }
 
     /********* Case Studies **********/

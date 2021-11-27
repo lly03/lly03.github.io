@@ -11,7 +11,7 @@
 body {
     background-color: var(--background-color);
     font-family: 'Poppins', sans-serif;
-    font-size: 1.25em;
+    font-size: 1em;
     margin: 0;
 }
 
@@ -33,5 +33,5 @@ h3 {
 }
 
 .about_section, .project_section, .contact_section {
-    padding: 5rem;
+    padding: 1rem;
 }
