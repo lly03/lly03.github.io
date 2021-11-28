@@ -98,7 +98,7 @@ iframe {
 }
 
 img {
-    width: 15rem;
+    width: 17rem;
 }
 
 .image_spacing {
@@ -113,6 +113,15 @@ img {
     box-shadow: 0.5em 1em 20px var(--container-color);
     transform: scale(1.05);
 }
+
+
+/****Slightly larger mobile phones****/
+@media screen and (min-width: 450px) { 
+    img {
+        width: 25rem;
+    }
+}
+
 
 /****Tablet Styles****/
 @media screen and (min-width: 600px) { 
